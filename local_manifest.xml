@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="me" fetch="https://github.com/iamharshit188" />
-  
+<remote name="al" fetch="https://github.com/OmarAlCoptan" />
+<remote name="nexus" fetch="https://github.com/projects-nexus" />   
   
 <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="me" revision="13-4.19" />
-
-<project path="device/xiaomi/lavender
-kernel/xiaomi/660
-vendor/xiaomi/660-common" name="vendor_xiaomi_lavender" remote="me" revision="13-4.19" />
+<project path="device/xiaomi/660-common" name="device_xiaomi_sdm660-common" remote="me" revision="13-4.19" />
+<project path="vendor/xiaomi/660-common" name="vendor_xiaomi_sdm660-common" remote="al" revision="13-4.19" />
+<project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="nexus" revision="qti" />
+<project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="al" revision="thirteen" />
 
 
 
