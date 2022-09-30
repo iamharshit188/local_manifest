@@ -5,12 +5,15 @@
 <remote name="nexus" fetch="https://github.com/projects-nexus" />   
 <remote name="dty" fetch="https://gitlab.com/dtyghc" />
 <remote name="he"   fetch="https://github.com/karann2354" />
+<remote name="cor" fetch="https://github.com/CorvusRom-Devices" />
   
-<project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="me" revision="tiramisu" />
+<project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="me" revision="corvus" />
 <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="nexus" revision="qti" />
 <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="al" revision="thirteen" />
 <project path="vendor/GCam" name="android_vendor_gcam" remote="dty" revision"main" />
 <project path="vendor/miuicamera" name="vendor_miuicamera" remote="he" revision="12.1" />
+<project path="hardware/xiaomi" name="hardware_xiaomi" remote="cor" revision="13">
+
 
 
 
